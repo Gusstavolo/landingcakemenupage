@@ -5,15 +5,24 @@
   text-align: center;
 }
 @media screen and (max-width: 440px) {
+  .bannerd {
+    width: 100vw;
+    height: 161vh;
+    background: url("./assets/imgs/massas.png") no-repeat;
+    background-size: 150%;
+    background-position: -120px 0px;
+
+  }
   .banner {
-    width: 100vh;
-    height: 100px;
-    background: url("./assets/imgs/cidaliabanner.png") no-repeat;
-    background-size: 70%;
-    background-position: -40px -60px;
+    width: 100vw;
+    height: 161vh;
+    background: url("./assets/imgs/5763716.png") no-repeat;
+    background-size: 125%;
+    background-position: -40px -50px;
 
   }
   .body_main {
+    display: flex;
     width: 100vw;
     height: 100vh;
 
@@ -29,11 +38,22 @@
   bottom: 15px;
   width: 100vw;
   justify-content: center;
+  align-items: center;
  }
  .botton_wtts {
-  width: 150px;
+  display: flex;
+  gap: 5px;
+  width: 200px;
   height: 50px;
-  background-color:#c05f71;
+  font-size: 1.1rem;
+  background-color:#ff4f78;
   border-radius: 30px;
+ 
+  justify-content: center;
+  align-items: center;
+  
+ }
+ .svg_icon_whats {
+  width: 30px;
  }
 }
